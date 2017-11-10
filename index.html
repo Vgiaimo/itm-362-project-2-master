@@ -9,7 +9,7 @@
 <body onLoad="if (!hadFocus(false)) document.userid.user.focus();"> 
 <img src="https://my.iit.edu/media/iit/images/header_blk_red.gif" alt="IIT Banner">
 <div class="container">
-  <form method="get" autocomplete="on" action="#null" onsubmit="xferFocus(this)">
+  <form method="get" autocomplete="on" action="welcome.html" onsubmit="xferFocus(this)">
     <fieldset id="Login"><h1>My IIT Login</h1></fieldset>
     <fieldset id="Info">
       <p><label>Username: </label></p>
@@ -17,10 +17,11 @@
       <p><label>Password: </label></p>
       <input type="text" required autocomplete="name">
       <p></p>
-      <input type="button" class="btn" name="login_btn" value="Login" onclick="login();" tabindex="3">
-      <input type="button" class="btn" name="cancel_btn" value="Clear" onclick="doCancel();" tabindex="4"> 
+      <input type="button" class="btn" name="login_btn" value="login" onclick="login();" tabindex="3">
+      <input type="button" class="btn" name="cancel_btn" value="clear" onclick="doCancel();" tabindex="4"> 
       <p></p>
       <a href="javascript:toggleLayer('Hint1');">Trouble logging in?</a>
+      <a href="welcome.html"></a>
     </fieldset>
   </form> 
 </div>
