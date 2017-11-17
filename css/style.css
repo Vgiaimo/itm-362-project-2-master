@@ -184,6 +184,8 @@
 
 .academicsLINKS {
   background-color: lightgray;
+  border-style: solid;
+  margin-bottom: 50px;
 }
 
 .academicsLINKS ul {
@@ -212,7 +214,9 @@
 
 .academics-footer {
   color: red;
-  padding: 10px;
+  padding: 20px;
+  font-size: 1.5em;
+  font-style: bold;
 }
 
 /*ACADEMICS PAGE CSS*//*ACADEMICS PAGE CSS*//*ACADEMICS PAGE CSS*/
@@ -261,6 +265,10 @@
   background: #8c8c8c;
   text-align: center;
   padding-top: 10px;
+  border-style: solid;
+  border-width: 3px;
+  margin-bottom: 50px;
+
 }
 
 input[type=text], [type=submit]{
@@ -283,6 +291,8 @@ input[type=text], [type=submit]{
 .footer-registration {
   color: red;
   padding: 10px;
+  font-size: 1.5em;
+  font-style: bold;
 }
 
 
