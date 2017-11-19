@@ -66,4 +66,28 @@ border-style: solid;
   margin-top: 0;
 }
 
+@media screen and (min-width: 480px){
+
+
+form{
+  font-size: 1.2em;/*(19.2px/16px=1.2em) Minor 3rd */
+}
+
+}
+
+@media screen and (min-width: 960px){
+
+form{
+  font-size: 1.44em;/*(23.04px/16px=1.44em) Minor 3rd */
+}
+
+
+}
+
+/*REGISTRATION PAGE CSS*//*REGISTRATION PAGE CSS*//*REGISTRATION PAGE CSS*/
+
+/*SUCCESS PAGE CSS*/
+
+
+
 /*INDEX PAGE HTML*//*INDEX PAGE HTML*//*INDEX PAGE HTML*//*INDEX PAGE HTML*/
